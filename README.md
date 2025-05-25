@@ -39,5 +39,5 @@ Une application Android simple et intuitive permettant de convertir des montants
 
 1. **Clone le dépôt**
    ```bash
-   git clone https://github.com/ton-utilisateur/convertisseur-euro.git
+   git clone https://github.com/LAMBARAA-Abdellah/convertisseur-euro
    cd convertisseur-euro
