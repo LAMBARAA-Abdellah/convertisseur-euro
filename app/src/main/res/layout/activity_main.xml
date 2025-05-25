@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <EditText
+        android:id="@+id/editTextEuro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Montant en Euro"
+        android:inputType="numberDecimal"
+        android:backgroundTint="@color/orange"
+        android:layout_marginBottom="8dp"
+        android:padding="12dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="#AAFFFFFF"
+        android:background="@drawable/edit_text_style" />
+    <Button
+        android:id="@+id/btnConvertir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COMPUTE"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/orange"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/textViewResultat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:textColor="@color/orange_dark"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:background="@drawable/text_view_style"        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <ListView
+        android:id="@+id/listViewHistorique"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>
